@@ -1,4 +1,4 @@
-# Laravel Angular Artisan Generators
+# CMWTEAM Laravel Angular Artisan Generators
 
 Angular generators for Artisan. Originally created at [laravel5-angular-material-starter](https://github.com/jadjoubran/laravel5-angular-material-starter).
 
@@ -6,12 +6,13 @@ Angular generators for Artisan. Originally created at [laravel5-angular-material
 # Usage
 
 ```
-artisan ng:page name       #New page inside angular/app/pages/
-artisan ng:dialog name     #New custom dialog inside angular/dialogs/
-artisan ng:component name  #New component inside angular/app/components/
-artisan ng:service name    #New service inside angular/services/
-artisan ng:filter name     #New filter inside angular/filters/
-artisan ng:config name     #New config inside angular/config/
+artisan ng:page name null (default)       	#New page inside angular/app/pages/
+artisan ng:page name path (a/b/c)      		#New page inside angular/app/pages/
+artisan ng:dialog name     					#New custom dialog inside angular/dialogs/
+artisan ng:component name  					#New component inside angular/app/components/
+artisan ng:service name    					#New service inside angular/services/
+artisan ng:filter name     					#New filter inside angular/filters/
+artisan ng:config name     					#New config inside angular/config/
 ```
 
 # Installation

@@ -24,7 +24,7 @@ class {{StudlyName}}Controller{
 }
 
 export const {{StudlyName}}Component = {
-    templateUrl: './views/app/components/{{name}}/{{name}}.component.html',
+    templateUrl: './views/app/components/{{custom_folder_name}}/{{name}}/{{name}}.component.html',
     controller: {{StudlyName}}Controller,
     controllerAs: 'vm',
     bindings: {}
